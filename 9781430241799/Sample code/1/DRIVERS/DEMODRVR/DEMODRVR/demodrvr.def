@@ -1,0 +1,17 @@
+LIBRARY Demodrvr
+
+EXPORTS
+    DllEntry
+    DMO_Init
+    DMO_PreDeinit
+    DMO_Deinit
+    DMO_Open
+    DMO_PreClose
+    DMO_Close
+    DMO_PowerUp
+    DMO_PowerDown
+    DMO_Cancel
+    DMO_IOControl
+    DMO_Read
+    DMO_Write
+    DMO_Seek

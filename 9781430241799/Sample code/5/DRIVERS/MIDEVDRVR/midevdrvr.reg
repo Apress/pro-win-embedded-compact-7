@@ -1,0 +1,8 @@
+; Midevdrvr driver
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\Midevdrvr]
+    "Prefix"="MID"
+    "DLL"="Midevdrvr.DLL"
+    "Order"=dword:1
+    "DisplayName"="Midevdrvr driver"
+    "Flags"=dword:0
+    "Order"=dword:0

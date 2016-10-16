@@ -1,0 +1,33 @@
+!if 0
+Copyright (c) Avi Kcholi.  All rights reserved.
+!endif
+
+SYNCHRONIZE_DRAIN=1
+
+WINCEOEM=1
+
+TARGETNAME=Rtllabdrvr
+RELEASETYPE=PLATFORM
+TARGETTYPE=DYNLINK
+
+DLLENTRY=DllEntry
+
+DEFFILE=Rtllabdrvr.def
+
+TARGETLIBS= \
+ $(_SYSGENSDKROOT)\lib\$(_CPUINDPATH)\coredll.lib \
+ $(_PLATLIB)\$(_CPUINDPATH)\ceddk.lib
+
+INCLUDES= \
+	$(INCLUDES);$(_PUBLICROOT)\common\sdk\inc; $(_PUBLICROOT)\common\ddk\inc; $(_PUBLICROOT)\common\oak\inc \
+
+
+SOURCES=  \
+ 	Rtllabdrvr_SI.cpp\
+	Rtllabdrvr.cpp \
+	Rtllabdrvrpdd.cpp\
+
+FILE_VIEW_INCLUDES_FOLDER= \
+    Rtllabdrvr.h \
+    ..\SDK\RtllabdrvrSDK.h \
+

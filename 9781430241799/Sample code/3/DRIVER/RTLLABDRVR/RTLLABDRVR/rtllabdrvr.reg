@@ -1,0 +1,10 @@
+; RtllabdRvR driver
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\Rtllabdrvr]
+    "Prefix"="RTL"
+    "DLL"="Rtllabdrvr.DLL"
+    "Irq"=dword:87
+    "MemBase"=dword:48002A14
+    "MemLen"=dword:1
+    "Order"=dword:5
+    "DisplayName"="RtllabdRvR driver"
+    "Flags"=dword:0

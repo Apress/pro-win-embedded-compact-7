@@ -1,0 +1,7 @@
+; Noloaddrvr driver
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\Noloaddrvr]
+    "Prefix"="NOL"
+    "DLL"="Noloaddrvr.DLL"
+    "Order"=dword:1
+    "DisplayName"="Noloaddrvr driver"
+    "Flags"=dword:4

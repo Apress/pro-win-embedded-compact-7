@@ -1,0 +1,33 @@
+_ISVINCPATH=$(_WINCEROOT)\public\common\sdk\inc;
+_OEMINCPATH=$(_WINCEROOT)\public\common\oak\inc;$(_WINCEROOT)\public\common\sdk\inc;
+
+TARGETNAME=Demodrvrtest
+FILE_VIEW_ROOT_FOLDER= \
+
+FILE_VIEW_RESOURCE_FOLDER= \
+
+FILE_VIEW_INCLUDES_FOLDER= \
+	ft.h \
+	globals.h \
+	main.h \
+
+
+SOURCES= \
+	Demodrvrtest.cpp \
+	globals.cpp \
+	test.cpp \
+
+
+RELEASETYPE=PLATFORM
+
+TARGETTYPE=DYNLINK
+
+TARGETLIBS= \
+      $(SG_OUTPUT_ROOT)\sdk\lib\$(_CPUINDPATH)\coredll.lib \
+      $(_PUBLICROOT)\common\oak\lib\$(_CPUINDPATH)\kato.lib \
+    
+INCLUDES= \
+      $(_PUBLICROOT)\COMMON\sdk\inc\test;$(INCLUDES) \
+    
+
+CDEFINES=$(CDEFINES) -DDemodrvrtest_EXPORTS

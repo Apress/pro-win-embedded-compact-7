@@ -1,0 +1,5 @@
+[HKEY_LOCAL_MACHINE\Drivers\Filters\{be59cca4-1a5c-43bc-ac5f-c45ae236390a}\FIRFilter]
+    "DLL"="Firfltdrvr.dll"
+    "InitEntry"="FIRFilterInit"
+    ; You may want to change the loading order as this is a temporary value
+    "Order"=dword:0

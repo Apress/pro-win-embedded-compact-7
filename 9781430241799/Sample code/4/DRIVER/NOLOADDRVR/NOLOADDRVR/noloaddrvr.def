@@ -1,0 +1,17 @@
+LIBRARY Noloaddrvr
+
+EXPORTS
+    DllEntry
+    NOL_Init
+    NOL_PreDeinit
+    NOL_Deinit
+    NOL_Open
+    NOL_PreClose
+    NOL_Close
+    NOL_PowerUp
+    NOL_PowerDown
+    NOL_Cancel
+    NOL_IOControl
+    NOL_Read
+    NOL_Write
+    NOL_Seek

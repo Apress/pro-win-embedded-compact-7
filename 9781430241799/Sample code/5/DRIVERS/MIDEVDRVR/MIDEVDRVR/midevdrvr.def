@@ -1,0 +1,17 @@
+LIBRARY Midevdrvr
+
+EXPORTS
+    DllEntry
+    MID_Init
+    MID_PreDeinit
+    MID_Deinit
+    MID_Open
+    MID_PreClose
+    MID_Close
+    MID_PowerUp
+    MID_PowerDown
+    MID_Cancel
+    MID_IOControl
+    MID_Read
+    MID_Write
+    MID_Seek

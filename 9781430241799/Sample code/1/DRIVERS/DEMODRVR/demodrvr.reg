@@ -1,0 +1,15 @@
+; DemoDrvr driver
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\Demodrvr]
+    "Prefix"="DMO"
+    "DLL"="Demodrvr.DLL"
+    "SysIntr"=dword:16
+    "Irq"=dword:10
+    "IoBase"=dword:278
+    "IoLen"=dword:16
+    "Order"=dword:0
+    "DisplayName"="DemoDrvr driver"
+    "IsrDll"="giisr.dll"
+    "IsrHandler"="ISRHandler"
+    "Flags"=dword:0
+    "IClass"="{f8a6ba98-087a-43ac-a9d8-b7f13c5bae31}"
+    "Filter"="{be59cca4-1a5c-43bc-ac5f-c45ae236390a}"

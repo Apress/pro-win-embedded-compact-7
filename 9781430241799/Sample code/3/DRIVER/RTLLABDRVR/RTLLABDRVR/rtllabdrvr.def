@@ -1,0 +1,17 @@
+LIBRARY Rtllabdrvr
+
+EXPORTS
+    DllEntry
+    RTL_Init
+    RTL_PreDeinit
+    RTL_Deinit
+    RTL_Open
+    RTL_PreClose
+    RTL_Close
+    RTL_PowerUp
+    RTL_PowerDown
+    RTL_Cancel
+    RTL_IOControl
+    RTL_Read
+    RTL_Write
+    RTL_Seek
